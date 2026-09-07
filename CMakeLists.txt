@@ -28,6 +28,7 @@ if(DEFINED ENV{OKAMI_PATH})
   set_property(CACHE CMAKE_INSTALL_PREFIX PROPERTY VALUE "$ENV{OKAMI_PATH}")
 endif()
 
+set(PICO_CXX_ENABLE_EXCEPTIONS 1)
 set(CXX_STD "23" CACHE STRING "Requested C++ standard")
 set(STD_FEATURE "cxx_std_${CXX_STD}")
 

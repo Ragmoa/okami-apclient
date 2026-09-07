@@ -17,6 +17,7 @@ set(okami-apclient_SOURCES
   ${CMAKE_CURRENT_SOURCE_DIR}/eventfix/common.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/eventfix/eventfix.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/eventfix/kamiki_village.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/eventfix/moon_cave.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/gamestate_accessors.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/itempatch.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/okami-apclient.cpp
